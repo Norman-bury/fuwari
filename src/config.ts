@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: false,
-    src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/head3.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
   },
   favicon: [    // Leave this array empty to use the default favicon
@@ -42,7 +42,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/head3.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Lorem Ipsum',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
